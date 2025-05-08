@@ -8,7 +8,7 @@
       "noEmit": true,
       "composite": true,
       "jsx": "react-jsx",
-      "strict": true
-    },
-    "include": ["**/*.tsx", "**/*.ts", "**/*.js", "**/*.jsx"]
-    },
+          "strict": true,
+        },
+        "include": ["**/*.tsx", "**/*.ts", "**/*.js", "**/*.jsx"]
+    }

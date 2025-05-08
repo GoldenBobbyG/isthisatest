@@ -4,7 +4,7 @@ import viteConfig from './vite.config';
 export default defineConfig({
  component: {
     devServer: {
-        port:5173,
+        
         framework: "react",
         bundler: "vite",
         viteConfig,
