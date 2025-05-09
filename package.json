@@ -14,10 +14,7 @@
     "build": "cd server && npm run build",
     "seed": "cd server && npm run seed",
     "cypress": "cypress open",
-    "test": "cypress run",
-    "test:e2e": "cypress run",
-    "test:component": "npx cypress open --component",
-    "test:all": "concurrently \"npm run test:e2e\" \"npm run test:component\"",
+    "test": "cypress run --component",
     "render-build": "npm install && npm run build"
   },
   "keywords": [],
