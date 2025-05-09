@@ -4,7 +4,6 @@ import viteConfig from './vite.config';
 export default defineConfig({
  component: {
     devServer: {
-        
         framework: "react",
         bundler: "vite",
         viteConfig,
@@ -15,6 +14,8 @@ export default defineConfig({
         setupNodeEvents(on, config) {
             // implement node event listeners here
         },
-        baseUrl: 'http://localhost:3000',
+        baseUrl: 'http://localhost:3001',
+        supportFile: false, // added supportFile property
     },
+
 });

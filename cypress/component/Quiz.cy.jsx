@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { mount } from 'cypress/react';
 import Quiz from '../../client/src/components/Quiz';
 
